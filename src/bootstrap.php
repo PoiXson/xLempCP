@@ -35,6 +35,10 @@ class bootstrap {
 		$this->router = new RouteCollector();
 		// default route
 		$this->router->any('/',         ['pxn\\xLempCP\\routes\\dashboard', 'Render']);
+		// mysql
+		$this->router->any('/db',       ['pxn\\xLempCP\\routes\\db',        'Render']);
+		// php
+		$this->router->any('/php',      ['pxn\\xLempCP\\routes\\php',       'Render']);
 		// zfs page
 		$this->router->any('/zfs',      ['pxn\\xLempCP\\routes\\zfs',       'Render']);
 		$this->router->any('/zfs/{id}', ['pxn\\xLempCP\\routes\\zfs',       'Render']);
