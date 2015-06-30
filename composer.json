@@ -5,9 +5,13 @@
 	"type":        "project",
 	"homepage":    "http://poixson.com/",
 	"license":     "GPL-3",
+	"support": {
+		"issues": "https://github.com/PoiXson/xLempCP/issues",
+		"source": "https://github.com/PoiXson/xLempCP",
+		"irc":    "irc://irc.esper.net/poixson"
+	},
 	"authors": [{
 		"name":  "lorenzop",
-		"email": "lorenzo@poixson.com",
 		"role":  "Developer"
 	}],
 	"autoload": {
@@ -15,8 +19,15 @@
 			"pxn\\xLempCP\\": "src/"
 		}
 	},
+	"autoload-dev": {
+		"psr-4": {
+			"pxn\\phpUtils\\tests\\":    "tests/",
+			"pxn\\phpUtils\\examples\\": "examples/"
+		}
+	},
 	"archive": {
 		"exclude": [
+			"tests/",
 			"example/"
 		]
 	},
