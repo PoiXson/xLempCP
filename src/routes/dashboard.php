@@ -9,11 +9,11 @@
  */
 namespace pxn\xLempCP\routes;
 
-class dashboard implements \pxn\xLempCP\Page {
+class dashboard extends \pxn\xLempCP\PageMain {
 
 
 
-	public function Render() {
+	public function RenderBody() {
 		return '<p>DASH PAGE</p>';
 	}
 

@@ -9,11 +9,11 @@
  */
 namespace pxn\xLempCP\routes;
 
-class php implements \pxn\xLempCP\Page {
+class php extends \pxn\xLempCP\PageMain {
 
 
 
-	public function Render($id='') {
+	public function RenderBody($id='') {
 		return '<p>PHP PAGE '.$id.'</p>';
 	}
 

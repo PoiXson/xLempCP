@@ -9,11 +9,11 @@
  */
 namespace pxn\xLempCP\routes;
 
-class zfs implements \pxn\xLempCP\Page {
+class zfs extends \pxn\xLempCP\PageMain {
 
 
 
-	public function Render($id='') {
+	public function RenderBody($id='') {
 		return '<p>ZFS PAGE '.$id.'</p>';
 	}
 

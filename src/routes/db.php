@@ -9,11 +9,11 @@
  */
 namespace pxn\xLempCP\routes;
 
-class db implements \pxn\xLempCP\Page {
+class db extends \pxn\xLempCP\PageMain {
 
 
 
-	public function Render($id='') {
+	public function RenderBody($id='') {
 		return '<p>MYSQL PAGE '.$id.'</p>';
 	}
 
