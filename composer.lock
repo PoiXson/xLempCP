@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4dd02e85bfe68cb1eedd4e6a5bbdade4",
+    "hash": "59257aff1d324e1e72ec0cdc5b52e8fa",
     "packages": [
         {
             "name": "phroute/phroute",
