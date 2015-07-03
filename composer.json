@@ -1,5 +1,5 @@
 {
-	"name":        "pxn/xlempcp/",
+	"name":        "pxn/xlempcp",
 	"description": "Management system for LEMP web servers (Linux / Nginx / MySQL / PHP)",
 	"version":     "0.1.0",
 	"type":        "project",
